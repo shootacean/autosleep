@@ -1,0 +1,27 @@
+[project]
+name = "autosleep"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Shota Narisaka", email = "shootacean@gmail.com" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+hello = "autosleep:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/autosleep"]
