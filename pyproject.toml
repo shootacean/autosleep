@@ -22,10 +22,13 @@ build-backend = "hatchling.build"
 managed = true
 dev-dependencies = [
     "black>=24.1.1",
+    "ruff>=0.2.1",
 ]
 
 [tool.rye.scripts]
-lint = { cmd = "black src/" }
+format = { cmd = "black src/" }
+lint = { cmd = "ruff src/" }
+lint-fix = { cmd = "ruff --fix src/" }
 
 [tool.hatch.metadata]
 allow-direct-references = true
