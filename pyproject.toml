@@ -23,12 +23,14 @@ managed = true
 dev-dependencies = [
     "black>=24.1.1",
     "ruff>=0.2.1",
+    "pytest>=8.0.0",
 ]
 
 [tool.rye.scripts]
 format = { cmd = "black src/" }
 lint = { cmd = "ruff src/" }
 lint-fix = { cmd = "ruff --fix src/" }
+test = { cmd = "pytest src/" }
 
 [tool.hatch.metadata]
 allow-direct-references = true

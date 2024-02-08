@@ -6,10 +6,11 @@
 - [ ] 年初から現在までの達成率
 - [ ] 月毎の達成率
 - [x] Setup Formatter ( Black )
-- [ ] Setup Linter
+- [x] Setup Linter ( Ruff )
+- [ ] Setup SAST ( Bandit )
 - [ ] Setup DAST
-- [ ] Setup SAST
 - [ ] Setup Snyk
+- [x] Setup TDD ( pytest )
 
 ## Usage
 

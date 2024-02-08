@@ -10,12 +10,15 @@
 -e file:.
 black==24.1.1
 click==8.1.7
+iniconfig==2.0.0
 mypy-extensions==1.0.0
 numpy==1.26.4
 packaging==23.2
 pandas==2.2.0
 pathspec==0.12.1
 platformdirs==4.2.0
+pluggy==1.4.0
+pytest==8.0.0
 python-dateutil==2.8.2
 pytz==2024.1
 ruff==0.2.1
